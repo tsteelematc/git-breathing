@@ -21,3 +21,13 @@ numbers_doubled = map(
 
 print(numbers_doubled)
 print(list(numbers_doubled))
+
+numbers_greater_than_five_after_being_doubled = filter(
+    lambda x: x > 5
+    , map(
+        lambda y: y * 2
+        , numbers
+    ) 
+)
+
+print(list(numbers_greater_than_five_after_being_doubled))
