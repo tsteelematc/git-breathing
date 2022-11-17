@@ -1,5 +1,5 @@
 # main.py
 
 #
-# filter and map
+# filter and map and list comprehensions too
 #
