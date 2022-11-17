@@ -1,4 +1,5 @@
 # main.py
+from tsteele import my_feature as tom
 
 #
 # filter and map and list comprehensions too
@@ -37,3 +38,5 @@ print(list(numbers_greater_than_five_after_being_doubled))
 #
 nums = [x * 2 for x in numbers if x * 2 > 5]
 print(nums)
+
+tom()
