@@ -13,3 +13,11 @@ numbers_less_than_two = filter(
 
 print(numbers_less_than_two)
 print(list(numbers_less_than_two))
+
+numbers_doubled = map(
+    lambda x: x * 2
+    , numbers
+)
+
+print(numbers_doubled)
+print(list(numbers_doubled))
